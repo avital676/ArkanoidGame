@@ -1,0 +1,77 @@
+
+# Level 1
+
+START_LEVEL
+level_name:Make America Great Again
+ball_velocities:45,6
+background:image(background_images/ny.jpeg)
+paddle_speed:10
+paddle_width:160
+block_definitions:definitions/ny_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:180
+row_height:28
+num_blocks:22
+START_BLOCKS
+-l*l*l*l*l*l*l*l*l*l*l*l-
+--*z*z*z*z*z*z*z*z*z*z-
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+
+START_LEVEL
+level_name:SUPER MARIO
+ball_velocities:60,6 70,6 80,6
+background:image(background_images/superMario.jpg
+paddle_speed:10
+paddle_width:120
+block_definitions:definitions/mario_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:70
+row_height:50
+num_blocks:28
+START_BLOCKS
+************a-a-a
+a**m-t-m-t-m-t
+m-t-t*****a-a
+*
+****t-a-t-a-t
+*
+*
+m-m-t-a-t*******m-m-m
+END_BLOCKS
+END_LEVEL
+
+
+# Level 3
+
+START_LEVEL
+level_name:AVOCADO
+ball_velocities:45,5 -45,5 0,5 70,5 -70,5
+background:image(background_images/avocado.jpg)
+paddle_speed:10
+paddle_width:200
+block_definitions:definitions/avocado_block_definitions.txt
+blocks_start_x:30
+blocks_start_y:100
+row_height:27
+num_blocks:40
+START_BLOCKS
+--aaaaaaaa--
+--a------a--
+--a------a--
+--a------a--
+--a------a--
+--a------a--
+--a------a--
+--a------a--
+--a------a--
+--a------a--
+--a------a--
+--a------a--
+--a------a--
+--aaaaaaaa--
+END_BLOCKS
+END_LEVEL

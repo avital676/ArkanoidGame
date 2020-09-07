@@ -1,0 +1,8 @@
+
+# block definitions
+bdef symbol:l hit_points:1 fill:image(block_images/usa.gif) height:25 width:50
+bdef symbol:z hit_points:2 fill:image(block_images/liberty.jpg) fill-2:image(block_images/trump.jpg) height:50 width:50
+
+# spacers definitions
+sdef symbol:- width:50
+sdef symbol:* width:3

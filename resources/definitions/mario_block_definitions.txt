@@ -1,0 +1,9 @@
+
+# block definitions
+bdef symbol:t hit_points:1 fill:image(block_images/turtle.png) height:50 width:50
+bdef symbol:m hit_points:2 fill:image(block_images/monster.jpeg) height:50 width:50
+bdef symbol:a hit_points:1 fill:image(block_images/mario.jpg) height:50 width:50
+
+# spacers definitions
+sdef symbol:* width:50
+sdef symbol:- width:2
